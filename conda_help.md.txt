@@ -10,10 +10,9 @@ python -m ipykernel install --user --name Matplotlib --display-name Matplotlib
 
 conda remove -n test1 --all
 
-1、查看已安装的包
+2、查看已安装的包
 conda list
 
-11、显示所有的环境：
+3、显示所有的环境：
 conda env list
 
-conda install -c conda-forge opencv - python
