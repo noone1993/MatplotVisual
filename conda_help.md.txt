@@ -1,0 +1,19 @@
+1.环境相关
+
+	- 指定 Python 版本创建虚拟环境：`conda create --name Matplotlib python=3.8`
+	- 激活进入虚拟环境: `conda activate Matplotlib`
+	- 进入虚拟环境: `activate Matplotlib`
+	- 删除虚拟环境：`conda remove --name test1 --all`
+	
+	
+python -m ipykernel install --user --name Matplotlib --display-name Matplotlib
+
+conda remove -n test1 --all
+
+1、查看已安装的包
+conda list
+
+11、显示所有的环境：
+conda env list
+
+conda install -c conda-forge opencv - python
